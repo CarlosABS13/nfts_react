@@ -5,7 +5,7 @@ function Nfts(props) {
     return (
         <div className="container rounded-4 color-fondo">
         <div>
-            <img src={require(`../images/${props.imagen3}`)} className="principal rounded-4"/>
+            <img className="principal rounded-4"/>
             <div className="card-body"> 
                 <h5 className="equilibrio card-text text white position-relative ml-2">{props.equilibrio}</h5>
                 <p className="equlibrio2 card-text text-muted font-size-sm text-white-50">{props.texto}</p>
